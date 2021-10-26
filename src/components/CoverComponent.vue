@@ -13,8 +13,10 @@ import { defineComponent } from 'vue'
 export default defineComponent({})
 </script>
 
-<style lang="sass" scoped>
-.test
-  &__test
-    color: blue
+<style lang="scss" scoped>
+.test {
+  &__text {
+    color: blue;
+  }
+}
 </style>

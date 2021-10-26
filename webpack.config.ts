@@ -34,7 +34,7 @@ module.exports = (env: string) => ({
         loader: 'vue-loader',
       },
       {
-        test: /\.sass$/,
+        test: /\.(sc|c|sa)ss$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -43,9 +43,6 @@ module.exports = (env: string) => ({
           'css-loader',
           {
             loader: 'sass-loader',
-            options: {
-              sassOptions: { indentedSyntax: true }
-            }
           }
         ]
       },

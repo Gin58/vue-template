@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="test">
     <h1 class="test__test">
       Vue Samle {{ getters.getCount() }}
     </h1>
@@ -38,8 +38,10 @@ export default defineComponent({
 })
 </script>
 
-<style lang="sass" scoped>
-.test
-  &__test
-    color: red
+<style lang="scss" scoped>
+.test {
+  &__test {
+    color: red;
+  }
+}
 </style>
