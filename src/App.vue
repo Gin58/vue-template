@@ -13,7 +13,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue'
 import CoverComponent from './components/CoverComponent.vue'
 import { useStore } from './store'
